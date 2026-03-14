@@ -50,7 +50,7 @@ allprojects {
         mavenCentral()
         mavenLocal()
         maven {
-            url = uri("https://maven.pkg.github.com/tribalfs/sesl-androidx")
+            url = uri("https://maven.pkg.github.com/LeeXDA21/sesl-androidx")
             credentials {
                 username = rootProject.extra["ghUsername"] as String
                 password = rootProject.extra["ghAccessToken"] as String

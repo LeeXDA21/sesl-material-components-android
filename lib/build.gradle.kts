@@ -292,13 +292,13 @@ afterEvaluate {
                                 "APIs that provide implementations of the Material Design specification.\n" +
                                 "Compatible on devices running API 14 or later."
                     )
-                    url.set("https://github.com/tribalfs/sesl-material-components-android")
+                    url.set("https://github.com/LeeXDA21/sesl-material-components-android")
                     inceptionYear.set("2024")
                     developers {
                         developer {
-                            id.set("tribalfs")
-                            name.set("Tribalfs")
-                            url.set("https://github.com/tribalfs")
+                            id.set("LeeXDA21")
+                            name.set("LeeXDA21")
+                            url.set("https://github.com/LeeXDA21")
                         }
                     }
                     licenses {
@@ -309,8 +309,8 @@ afterEvaluate {
                         }
                     }
                     scm {
-                        connection = "scm:git:https://github.com/tribalfs/sesl-material-components-android.git"
-                        url = "https://github.com/tribalfs/sesl-material-components-android"
+                        connection = "scm:git:https://github.com/LeeXDA21/sesl-material-components-android.git"
+                        url = "https://github.com/LeeXDA21/sesl-material-components-android"
                     }
                 }
             }
@@ -319,7 +319,7 @@ afterEvaluate {
         repositories {
             maven {
                 name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/tribalfs/sesl-material-components-android")
+                url = uri("https://maven.pkg.github.com/LeeXDA21/sesl-material-components-android")
                 credentials {
                     username = ghUsername
                     password = ghAccessToken
@@ -363,14 +363,14 @@ dokka {
 
         sourceLink {
             localDirectory.set(projectDir.resolve("java"))
-            remoteUrl("https://github.com/tribalfs/sesl-material-components-android/blob/sesl/master/lib/java")
+            remoteUrl("https://github.com/LeeXDA21/sesl-material-components-android/blob/sesl/master/lib/java")
             remoteLineSuffix.set("#L")
         }
 
         externalDocumentationLinks {
             register("sesl.androidx") {
-                url("https://tribalfs.github.io/sesl-androidx/")
-                packageListUrl("https://tribalfs.github.io/sesl-androidx/package-list")
+                url("https://LeeXDA21.github.io/sesl-androidx/")
+                packageListUrl("https://LeeXDA21.github.io/sesl-androidx/package-list")
             }
         }
 
