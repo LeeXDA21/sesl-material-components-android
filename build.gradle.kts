@@ -41,7 +41,7 @@ fun getGithubProperty(key: String): String {
 
 extra["ghUsername"] = getGithubProperty("ghUsername")
 extra["ghAccessToken"] = getGithubProperty("ghAccessToken")
-extra["mdcLibraryVersion"] = "1.12.0+1.0.32-sesl8+rev6"
+extra["mdcLibraryVersion"] = "1.12.0+1.0.32-sesl8+rev7"
 extra["mdcLibraryPackage"] = "com.google.android.material"
 
 allprojects {
@@ -50,7 +50,7 @@ allprojects {
         mavenCentral()
         mavenLocal()
         maven {
-            url = uri("https://maven.pkg.github.com/tribalfs/sesl-androidx")
+            url = uri("https://maven.pkg.github.com/LeeXDA21/sesl-androidx")
             credentials {
                 username = rootProject.extra["ghUsername"] as String
                 password = rootProject.extra["ghAccessToken"] as String
