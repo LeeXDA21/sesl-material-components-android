@@ -26,14 +26,14 @@ dependencies {
     implementation("com.google.errorprone:error_prone_annotations:2.15.0")
     implementation("org.jetbrains.kotlin:kotlin-reflect:2.0.21")
 
-    api("sesl.androidx.core:core:1.16.0+1.0.7-sesl8+rev0")
-    implementation("sesl.androidx.core:core-ktx:1.16.0+1.0.0-sesl8+rev0")
-    api("sesl.androidx.appcompat:appcompat:1.7.1+1.0.18-sesl8+rev0")
-    api("sesl.androidx.coordinatorlayout:coordinatorlayout:1.3.0+1.0.0-sesl8+rev0")
-    api("sesl.androidx.drawerlayout:drawerlayout:1.2.0+1.0.0-sesl8+rev0")
-    api("sesl.androidx.fragment:fragment:1.8.8+1.0.5-sesl8+rev0")
-    api("sesl.androidx.recyclerview:recyclerview:1.4.0+1.0.12-sesl8+rev0")
-    api("sesl.androidx.viewpager2:viewpager2:1.1.0+1.0.0-sesl8+rev0")
+    api("sesl.androidx.core:core:1.17.0+1.0.7-sesl8+rev5")
+    implementation("sesl.androidx.core:core-ktx:1.17.0+1.0.0-sesl8+rev3")
+    api("sesl.androidx.appcompat:appcompat:1.7.1+1.0.21-sesl8+rev10")
+    api("sesl.androidx.coordinatorlayout:coordinatorlayout:1.3.0+1.0.0-sesl8+rev2")
+    api("sesl.androidx.drawerlayout:drawerlayout:1.2.0+1.0.0-sesl8+rev2")
+    api("sesl.androidx.fragment:fragment:1.8.9+1.0.5-sesl8+rev3")
+    api("sesl.androidx.recyclerview:recyclerview:1.4.0+1.0.12-sesl8+rev5")
+    api("sesl.androidx.viewpager2:viewpager2:1.1.0+1.0.0-sesl8+rev2")
 
 
     testImplementation("androidx.test:core:1.4.0")
